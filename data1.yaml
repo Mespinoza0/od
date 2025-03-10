@@ -1,0 +1,10 @@
+train: data_folder2/train
+val: data_folder2/test
+nc: 6
+names: ['pill bottle',
+        'hand',
+        'glasses',
+        'person',
+        'phone',
+        'mug'  
+]
