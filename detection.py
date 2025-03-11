@@ -20,7 +20,7 @@ def main():
     yolo.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
     # Change this line to capture the stream from the Raspberry Pi camera feed
-    cap = cv2.VideoCapture("http://11.21.40.231:8080/?action=stream")
+    cap = cv2.VideoCapture("http://11.21.40.241:8080/?action=stream")
     
     if not cap.isOpened():
         print("Error: Could not access the camera stream.")
